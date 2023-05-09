@@ -1,0 +1,22 @@
+:root {
+    --main-color: #b21368;
+    --main-color-hover: #b21368c4;
+    --price-color: #6e44ff;
+}
+.ordcolor{
+    color: #b21368;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    font-weight: lighter;
+    position: relative;
+
+}
+.sidepading{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.inputname{
+    color: #b21368;
+    font-weight: 600;
+}

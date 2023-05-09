@@ -1,0 +1,15 @@
+
+  @keyframes slideUp {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-40px);opacity:1;}
+  }
+  
+  @keyframes slideDown {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(40px);opacity:1;}
+  }
+  @media only screen and (max-width: 600px) {
+    .slide-effect, .text, .slideDown, .slideUp {
+      font-size: 15px;
+    }
+  }

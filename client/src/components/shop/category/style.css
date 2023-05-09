@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #b21368;
+  --main-color-hover: #b21368c4;
+  --price-color: #6e44ff;
+}
+
+.cursor_pointer:hover {
+  background-color: var(--main-color);
+}
+
+.text-color {
+  color: var(--main-color);
+}
+
+.txtcol:hover {
+  color: #821D30 !important
+}
+
+/* .filterimg{
+    display: flex;
+    overflow: hidden;
+  } */
+.ordscc {
+  background-color: #821D30;
+}

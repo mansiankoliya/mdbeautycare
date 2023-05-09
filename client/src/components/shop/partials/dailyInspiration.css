@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.video-form{
+  height: 30px;
+  width: 30%;
+}
+.video-forms{
+  padding-top: 20px;
+}
+.video-setting{
+  height: 30px;
+  width: 30%;
+}
+
+.main_header .header_page {
+    background-image: url("../partials/img/breadcrumb-5.jpg");
+    padding: 100px 0px;
+    filter: brightness(0.8);
+  }
+  .header_page .img-heading {
+    font-size: 50px !important;
+    padding-left: 30px;
+    color: var(--main-color) !important;
+    font-weight: 500;
+    font-family: 'playball' !important;
+  }

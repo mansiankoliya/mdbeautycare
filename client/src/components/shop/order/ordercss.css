@@ -1,0 +1,24 @@
+.checkout{
+    color: #b21368;
+}
+
+.bgclass{
+    background-color: white;
+}
+.ordercss{
+    /* color: #b21368; */
+    /* text-align: center !important; */
+    position: relative;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    /* margin-top: -25px; */
+    color: var(--main-color);
+}
+.darkckout{
+    color: #b21368;
+}
+.colorckeck{
+    color: black;
+}

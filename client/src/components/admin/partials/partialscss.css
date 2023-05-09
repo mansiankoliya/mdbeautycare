@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-icons {
+    color: var(--main-color) !important;
+}
+
+.main-nav {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav-text {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.brand-name {
+    color: var(--main-color) !important;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: playball;
+}
+.deshboardbod{
+    border: #b21368;
+}
+
+.footercss {
+    color: var(--main-color) !important;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: playball;
+    letter-spacing: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.userDropdown {
+    display: none;
+    color: var(--third-color);
+    font-weight: 400;
+}
+
+.backcolor {
+    background-color: #b21368;
+}
+
+.fontcss {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* .sidebar{
+    height: 30vh;
+} */

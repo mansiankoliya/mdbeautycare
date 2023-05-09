@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+.colorclass{
+  color: #b21368;
+}
+
+:root {
+  --main-color: #b21368;
+  --main-color-hover: #b21368c4;
+}
+
+.category-class {
+  color: var(--main-color);
+  letter-spacing: 1.5px;
+  transition: all 0.5s;
+
+}
+
+.category-class:hover {
+  color: var(--main-color-hover);
+}
+
+.txtcol:hover {
+  color: #b21368 !important
+}
+
+.ordscc {
+  background-color: #b21368 !important;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b21368;
+  /* background: #b7791f; */
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b21368;
+  /* background: #b7791f; */
+  cursor: pointer;
+}
+
+.catcss {
+  text-align: center !important;
+  position: relative;
+  /* font-size: 25px; */
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  /* margin-top: -25px; */
+  color: var(--main-color);
+}

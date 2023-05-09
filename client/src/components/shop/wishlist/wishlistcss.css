@@ -1,0 +1,21 @@
+
+.csseffect{
+    display: hidden;
+}
+.colcss{
+    color: #b21386;
+}
+.wishlistcss:hover{
+    color: #b21386;
+}
+.had{
+    text-align: center !important;
+    position: relative;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    /* margin-top: -25px; */
+    color: var(--main-color);
+    padding-top: 20px;
+}

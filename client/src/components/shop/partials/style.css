@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_header .header_page {
+  background-image: url("../partials/img/breadcrumb-5.jpg");
+  padding: 100px 0px;
+  filter: brightness(0.6);
+  /* text-align: center; */
+}
+
+.header_page .ftn {
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px !important;
+  padding-left: 30px;
+}
+
+.footercss {
+  color: var(--main-color) !important;
+  font-weight: 500;
+  font-size: 23px;
+  font-family: playball;
+  letter-spacing: 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 14px 28px, rgba(0, 0, 0, 0.50) 0px 10px 10px;
+}
+
+
+@font-face {
+  font-family: tangerine;
+  src: url('../../../assets/fonts/Tangerine-Regular.ttf');
+}
+
+@font-face {
+  font-family: playball;
+  src: url('../../../assets/fonts/Playball-Regular.ttf');
+}
+
+:root {
+  --main-color: #b21368;
+  --second-color: #fff;
+  --third-color: #000;
+  --main-color-hover: #fc6dab;
+}
+.cartname{
+  color: #c21772;
+}
+.bgnavcolor {
+  background-color: #b21368;
+  /* background-color: #ab0552; */
+}
+
+.main-nav {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav-text {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 17px;
+  transition: all 0.7s;
+}
+
+.nav-text:hover {
+  color: var(--main-color-hover);
+}
+
+.brand-name {
+  color: var(--main-color) !important;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: playball;
+}
+
+.nav-icons {
+  color: var(--main-color) !important;
+}
+
+.txtcolor {
+  color: #b21368
+}
+
+.ouantity {
+  color: #b21368
+}
+
+.btncolor {
+  background-color: #b21368;
+}
+
+.userDropdown {
+  display: none;
+  color: var(--third-color);
+  font-weight: 400;
+}
+
+.userDropdownBtn:hover .userDropdown {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+  border: 1px solid var(--main-color);
+  background-color: var(--second-color);
+  border-radius: 0 !important;
+  /* color: var(--second-color); */
+}
+
+.cart-item {
+  color: var(--main-color) !important;
+}
+
+.fontcss {
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  font-weight: 100;
+  /* word-spacing: 0%; */
+
+}
+
+.cart-btn {
+  background-color: white;
+  color: #b21368;
+}
